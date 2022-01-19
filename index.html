@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css & Js files -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Quaiz App? javaScript</title>
+</head>
+<body>
+      <div class="mainContainer">
+
+        <div class="Quaiz-app">
+
+            <div class="head">
+                <h2>Quaiz? App </h2>
+                <span id="outOf">1 / 10</span>
+            </div>
+        
+            <div class="quaiz-content">
+                <h2 id="question" >Q 1: HTML stands for?</h2>
+
+                <div id="option">
+                    <input type="radio" name="option" id="option_1" class="option">
+                    <label for="option_1" class="answer" id='opt_1'>High text maker langauge</label>
+                </div>
+
+                <div id="option">
+                    <input type="radio" name="option" id="option_2" class="option">
+                    <label for="option_2" class="answer" id='opt_2'>Hyper text markup langauge</label>
+                </div>
+
+                <div id="option">
+                    <input type="radio" name="option" id="option_3" class="option">
+                    <label for="option_3" class="answer" id='opt_3'>Hi they make laugh</label>
+                </div>
+
+                <div id="option">
+                    <input type="radio" name="option" id="option_4" class="option">
+                    <label for="option_4" class="answer" id='opt_4'>None of the above</label>
+                </div>
+                   
+                 <button id='nextBtn' onclick="nextClick()">Next</button>
+                 
+                  <div class="result"></div>
+            
+                </div>
+        </div>
+
+
+
+      </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
